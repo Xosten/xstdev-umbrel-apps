@@ -5,7 +5,7 @@ tagline: Replace this tagline with your app's tagline
 icon: https://hay-kot.github.io/homebox/assets/img/favicon.svg
 category: Home
 version: "0.9.1"
-port: 4000
+port: 3100
 description: >-
   Add your app's description here.
 
