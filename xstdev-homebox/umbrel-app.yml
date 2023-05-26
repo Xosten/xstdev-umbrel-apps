@@ -1,23 +1,23 @@
 manifestVersion: 1
-id: xstdev-actualbudget
-name: actualbudget
+id: xstdev-homebox
+name: HomeBox
 tagline: Replace this tagline with your app's tagline
-icon: https://is5-ssl.mzstatic.com/image/thumb/Purple126/v4/c9/a9/4f/c9a94f13-f7d3-6f48-ea28-690d7a4d10e8/AppIcon-0-0-1x_U007emarketing-0-0-0-5-0-0-sRGB-0-0-0-GLES2_U002c0-512MB-85-220-0-0.png/1200x600wa.png
-category: Finance
-version: "23.5.0"
-port: 5006
+icon: https://hay-kot.github.io/homebox/assets/img/favicon.svg
+category: Home
+version: "0.9.1"
+port: 7745
 description: >-
   Add your app's description here.
 
 
   You can also add newlines!
 
-developer: 
-website: 
-submitter: 
-submission: 
-repo: 
-support: 
+developer: hay-kot
+website: https://hay-kot.github.io/homebox/
+submitter: Xosten
+submission: https://github.com/getumbrel/umbrel-hello-world-app
+repo: https://github.com/hay-kot/homebox
+support: https://github.com/hay-kot/homebox/issues
 gallery:
   - https://i.imgur.com/yyVG0Jb.jpeg
   - https://i.imgur.com/yyVG0Jb.jpeg

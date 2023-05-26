@@ -1,21 +1,16 @@
 version: "3.7"
 
 services:
-
   app_proxy:
     environment:
-      # The format here is: <app-id>_<docker-service-name>_1
-      APP_HOST: xstdev-homebox_server_1
-      APP_PORT: 7745
-    
-  server:
-    image: ghcr.io/hay-kot/homebox:latest
+      APP_HOST: xstdev-actualbudget_web_1
+      APP_PORT: 5006
+
+  web:
+    image: actualbudget/actual-server:23.5.0@ sha256:e2e6daa61c9049e2a7b637500f18a1a2c4ddee9af4ac4b1d90d1f2f194383b47
     restart: on-failure
+    volumes:
+      - ${APP_DATA_DIR}/data/:/data
     environment:
       - PUID=1000
       - PGID=1000
-      - HBOX_LOG_LEVEL=info
-      - HBOX_LOG_FORMAT=text
-      - HBOX_WEB_MAX_UPLOAD_SIZE=10
-    volumes:
-      - ${APP_DATA_DIR}/data:/data/
